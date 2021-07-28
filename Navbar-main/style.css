@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-barra: #2C97DE;
+    --bg-hover: #1B83C9;
+}
+
+nav.topo {
+    background-color: var(--bg-barra);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: var(--bg-hover);
+}
+
+.menu li ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: var(--bg-barra);
+}
+
+.menu li ul li {
+    width: 20ch;
+}
+
+.menu li ul li:hover {
+    background-color: var(--bg-hover);
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+/* 
+
+ul.casual{
+    margin: 0;
+    display: inline-block;
+    height: 1em;
+    overflow:hidden ;
+    font-size: 10px;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 25px;
+    font-size: 10px;
+}
+ul.casual:hover{
+    overflow: visible;
+}
+ul.Esportiva{
+    margin: 0px 0px;
+    display: inline-block;
+    height: 1em;
+    overflow:hidden ;
+    font-size: 10px;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 25px;
+    font-size: 10px;
+}
+ul.Esportiva:hover{
+    overflow: visible;
+}
+ul.Corporativa{
+    margin: 0px 0px;
+    display: inline-block;
+    height: 1em;
+    overflow:hidden ;
+    font-size: 10px;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 25px;
+    font-size: 10px;
+}
+ul.Corporativa:hover{
+    overflow: visible;
+}
+ul.Kids{
+    margin: 0px 0px;
+    display: inline-block;
+    height: 1em;
+    overflow:hidden ;
+    font-size: 10px;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 25px;
+    font-size: 10px;
+}
+ul.Kids:hover{
+    overflow: visible;
+}
+ul.Premium{
+    margin: 0px 0px;
+    display: inline-block;
+    height: 1em;
+    overflow:hidden ;
+    font-size: 10px;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 25px;
+    font-size: 10px;
+}
+ul.Premium:hover{
+    overflow: visible;
+} */
